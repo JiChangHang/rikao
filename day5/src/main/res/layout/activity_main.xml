@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.bawei.day5.MainActivity">
+
+<com.bawei.day5.MyCustom
+    android:id="@+id/mycuston"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:title="Activity1"
+    app:titleSize="23sp"
+    app:titleColor="#1b83eb"
+    app:buttonBackground="#42000000"
+    app:buttonText="返回"
+    app:mycustombackgroud="#b03ec87e"
+    >
+
+</com.bawei.day5.MyCustom>
+
+</LinearLayout>

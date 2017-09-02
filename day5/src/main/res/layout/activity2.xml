@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+<com.bawei.day5.MyCustom
+    android:id="@+id/mycustom2"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    app:title="Activity2"
+    app:titleSize="23sp"
+    app:titleColor="#1b83eb"
+    app:buttonBackground="#42000000"
+    app:buttonText="返回"
+    app:mycustombackgroud="#b03ec87e"
+    >
+</com.bawei.day5.MyCustom>
+
+</LinearLayout>
